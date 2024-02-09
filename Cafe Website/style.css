@@ -1,0 +1,10 @@
+h1, h2 {
+    padding-top: 10px;
+}
+   @media (min-width: 768px) {
+       .col-lg-6:last-child {
+           .card-img-top {
+               height: 250px;
+           }
+       }
+   }
